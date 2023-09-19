@@ -5,7 +5,9 @@
 }
 :root {
     --index: calc(1vw + 1vh);
-    --text: rgb(209, 247, 86);
+    --text: #ff00d9;
+    text-shadow: 0 0 10px #000000e2; 
+    
 }
 
 @font-face {
@@ -90,8 +92,9 @@ body {
     transform: translate3d(0, calc(var(--scrollTop) / 1.8), 0);
     will-change: transform;
     text-transform: uppercase;
-    color: rgb(209, 247, 86);
-    text-shadow: 0 0 10px #ddff31e2;
+    color: #ff00d9;
+    text-shadow: 0 0 10px #000000e2; 
+    -webkit-text-stroke: 2px rgb(182, 0, 79);
 }
 .layers_title {
     font-size: calc(var(--index) * 2);
@@ -128,4 +131,6 @@ body {
     max-width: calc(var(--index) * 30);
     transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
     will-change: transform;
+    background-color: #000000a0;
+    border-radius: 5px;
 }
