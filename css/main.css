@@ -10,12 +10,12 @@
 
 @font-face {
   font-family: raleway_f;
-  src: url(../fonts/raleway-regular.woff2);
+  src: url(fonts/raleway-regular.woff2);
 }
 
 @font-face {
   font-family: raleway_f;
-  src: url(../fonts/raleway-black.woff2);
+  src: url(fonts/raleway-black.woff2);
   font-weight: 900;
 }
 
@@ -35,7 +35,7 @@ body {
     z-index: 100;
     width: 100%;
     height: calc(var(--index) * 1.4);
-    background-image: url(../img/Без-имени-17.png);
+    background-image: url(img/Без-имени-17.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
