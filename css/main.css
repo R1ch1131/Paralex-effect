@@ -132,5 +132,5 @@ body {
     transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
     will-change: transform;
     background-color: #000000a0;
-    border-radius: 5px;
+    border-radius: 6px;
 }
